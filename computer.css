@@ -1,0 +1,165 @@
+
+for computer
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* navbar start */
+.nav-logo
+{
+   text-align: left;
+}
+
+.nav-heading
+{
+   text-align: center;
+   
+   
+}
+
+.nav-manu
+{
+   flex-direction: row;
+   justify-content: flex-end;
+  
+}
+
+.nav-manu a
+{
+   padding: 50x 10px;
+   margin: 20px 0px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   background-color: transparent;
+}
+
+/* nav bar end */
+
+/* profile design start */
+
+.top-icon
+{
+  
+   right: 100px;
+   width: 120px;
+   transition: width 2s ,transform 2s;
+}
+
+.bottom-icon
+{
+  
+   left: 100px;
+   width: 120px;
+   transition: width 2s ,transform 2s;
+}
+.bottom-icon:hover
+{
+   transform: rotate(360deg);
+   width: 150px;
+}
+.top-icon:hover
+{
+   transform: rotate(360deg);
+   width: 150px;
+}
+
+
+
+/* profile design end */
+
+
+
+/* about me design start */
+
+.about-me:img
+{
+   margin-top: 100px;
+}
+.about-me-img img
+{
+   height: 270px;
+   width: 250px;
+}
+.about-me-details p
+{
+   text-align: left;
+}
+
+/* about me design end */
+
+
+
+/* profile card design start*/
+
+.professional-exp
+{
+   padding: 1% 5%;
+}
+
+
+
+/* profile card design end*/
+
+
+
+
+/* achievement and contact start here*/
+
+
+.achievement
+{
+   padding-right: 50px;
+}
+
+
+.contact button
+{
+   width: 100px;
+}
+
+
+.contact-link
+{
+   position: relative;
+}
+
+.media-button
+{
+   position: absolute;
+   margin-top: 160px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10px;
+}
+
+/* achievement and contact end here*/
+
+
+
+/*-footer start here-*/
+
+.footer-link
+{
+   margin: 15px 0px;
+}
+
+.footer-link a
+{
+   display: inline;
+   padding: 12px;
+}
+
+/*-footer end here-*/
